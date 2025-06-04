@@ -125,7 +125,7 @@ class CircularDoublyLinkedList:
         print("List after removing BROWN:")
         my_circular_list.show_list_forward()
 
-        # Attempting to empty the LList by removing the remining elements
+
         my_circular_list.remove_by_value("THE")
         my_circular_list.remove_by_value("FOX")
         print("List after removing all:")
